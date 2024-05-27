@@ -32,6 +32,10 @@ ScrollReveal().reveal(".header_content h2",{
     delay:1000,
 });
 
+ScrollReveal().reveal(".order_card",{
+    ...scrollRevealOption,
+    interval:500,
+});
 
 
 
